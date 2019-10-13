@@ -49,7 +49,7 @@ $secondary:     rgb(247,244,237) !default;
 // $warning:       $yellow !default;
 // $danger:        $red !default;
 // $light:         $gray-100 !default;
-// $dark:          $gray-800 !default;
+$dark:          #4F4E4C !default;
 
 // $yiq-contrasted-threshold: 250 !default;
 
@@ -65,8 +65,8 @@ $secondary:     rgb(247,244,237) !default;
 
 // // Fonts
 
-// $headings-font-family:        "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
-// $headings-color:              $gray-700 !default;
+$headings-font-family:        "Playfair Display", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-color:              $dark !default;
 
 // // Tables
 
