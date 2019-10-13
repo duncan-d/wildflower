@@ -3,7 +3,9 @@ layout: page
 title: Wildflower Salon
 ---
 
-![a group photo of all the stylists](assets/images/wildflower_logo.jpg "Group Stylist Photo")
+![the shop logo](assets/images/wildflower_logo.jpg "Wildflower Logo")
+
+<img style="max-height: 300px;" class="img-fluid border border-dark mb-5" src="images/wildflower_logo.jpg" alt="logo">
 
 ### An Eco Salon in Northeast Minneapolis
 
