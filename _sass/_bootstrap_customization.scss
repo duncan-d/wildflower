@@ -7,10 +7,14 @@
 
 // // Variables ===================================================================
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap" !default;
+$web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:900&display=swap" !default;
 @import url($web-font-path);
 
 // // Navbar ======================================================================
+
+.navbar-brand{
+    font-family: "Playfair Display";
+}
 
 // .navbar {
 //   font-family: $headings-font-family;

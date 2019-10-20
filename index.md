@@ -1,11 +1,34 @@
 ---
-layout: page
+layout: default
 title: Wildflower Salon
 ---
-<div class="text-center">
-    <img style="max-height: 300px;" class="img-fluid border border-dark m-2" src="assets/images/wildflower_logo.jpg" alt="logo">
+<div class="row">
+    <div class="col">
+        <div class="text-center">
+            <img 
+            style="max-height: 400px;" 
+            class="img-fluid border border-dark mb-3" 
+            src="assets/images/wildflower_logo.jpg" 
+            alt="logo"
+            >
+        </div>
+    </div>
 </div>
-<h3 class="text-center">An Eco Salon in Northeast Minneapolis</h3>
-<a class="btn btn-lg btn-dark m-3 text-light">Book Now</a>
-<p>This is where I'm gonna tell you the most relevant information the most quickly. I'll probably have a big button to go book a service right away in case that's all I came here for.</p>
-<img class="img-fluid" src="assets/images/stylist-group.jpg" alt="a group photo of all the stylists">
+<div class="row">
+    <div class="col">
+        <h1 
+        class="text-center text-primary"
+        style="font-family: 'Playfair Display'"
+        >
+            <span class="d-inline-block">Coming </span>
+            <span class="d-inline-block">This Winter</span>
+        </h1>
+        <a href="https://goo.gl/maps/9GV8cwifeNmpMW5S7" target="_blank">
+            <h2 class="text-center text-primary my-3 text-uppercase">
+                <span class="d-inline-block">To the Q.Arma </span>
+                <span class="d-inline-block">building in </span>
+                <span class="d-inline-block">Northeast Minneapolis</span>
+            </h2>
+        </a>
+    </div>    
+</div>
