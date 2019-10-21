@@ -25,9 +25,9 @@ title: Stylists
         <img style="" class="card-img-top" src="{{ site.baseurl }}/assets/images/{{ stylist.image_link }}" alt="{{ stylist.name }}">
       </a>
       <div class="card-body">
-        <div class="card-text text-danger">
+        <div class="card-text">
           <h5 class="bg-primary border-secondary rounded p-1 m-0 text-center">{{ stylist.first_name }} {{ stylist.last_name }} - {{ stylist.position }}</h5>
-          <p>{{ stylist.content }}</p>
+          <p>{{ stylist.blurb }}</p>
           <a class="btn btn-dark text-light w-100 text-center" href="mailto:{{ stylist.email }}">Email {{ stylist.first_name }}</a>
         </div>
       </div>
