@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Wildflower Salon
+url: /index.html
 ---
 <div class="row">
     <div class="col">
