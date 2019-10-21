@@ -22,6 +22,7 @@ url: "http://duncan-d.github.io" # the base hostname & protocol for your site, e
 #twitter_username: jekyllrb
 #github_username:  jekyll
 vagaro_link: 'https://www.vagaro.com/wildflowersalon5'
+phone_number: '612-710-9003'
 
 repository: "duncan-d/wildflower"
 
@@ -37,7 +38,11 @@ header_pages:
  - stylists.md
 
 collections:
-  - stylists
+  stylists:
+    order: 
+      - nikol.md
+      - laura.md
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
