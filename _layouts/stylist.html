@@ -2,10 +2,10 @@
 layout: narrow
 ---
 <div class="row bg-primary">
-    <div class="col col-sm-4 p-0">
+    <div class="col-12 text-center p-0 col-sm-4 col-md-auto text-md-left">
         <img style="min-width: 80px" class="img-fluid" src="{{ site.baseurl}}/assets/images/{{ page.image_link }}" alt="Picture of {{ page.first_name }}">
     </div>
-    <div class="col col-sm-8 pt-5 px-2">
+    <div class="col p-5">
         <div class="row">
             <div class="col">
                 <h1>{{ page.first_name }} {{ page.last_name }}</h1>
@@ -14,7 +14,7 @@ layout: narrow
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col col-sm-8 col-md-auto">
                 <a class="text-dark" href="mailto:{{ page.email }}">Email {{ page.first_name }}</a>
             </div>
         </div>
