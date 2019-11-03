@@ -37,6 +37,6 @@ title: Stylists
 </div>
   <div class="row">
     <div class="col text-center">
-      <a href="/" class="btn btn-secondary mt-2">Home</a>
+      <a href="/" class="btn btn-secondary mt-2 p-3"><h1>&larr;</h1></a>
     </div>
 </div>

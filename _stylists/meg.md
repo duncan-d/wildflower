@@ -5,7 +5,7 @@ position: Stylist
 #email: meg@wildflowersalonmpls.com
 image_link: Meg.jpg
 layout: stylist
-blurb: Meg started working at Salon Stella in October 2014. She loves the people she works with and finds her clients to be amazing.
+blurb: Meg started cutting hair in Northeast in October 2014. She loves the people she works with and finds her clients to be amazing.
 ---
 
 Meg graduated from Aveda in 2007 and has worked in a few salons in the Twin Cities since then. She has explored a few avenues of the industry, including extensions and wigs, while still working behind the chair. She continues to take classes on cut and color techniques.
