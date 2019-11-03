@@ -31,5 +31,8 @@ url: /index.html
                 <span class="d-inline-block">Northeast Minneapolis</span>
             </h2>
         </a>
+        <a href="/stylists">
+            <h1 class="text-center text-primary">Check Out Our Staff</h1>
+        </a>
     </div>    
 </div>

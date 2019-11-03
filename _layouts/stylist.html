@@ -15,12 +15,12 @@ layout: narrow
         </div>
         <div class="row">
             <div class="col col-sm-8 col-md-auto">
-                <a class="text-dark" href="mailto:{{ page.email }}">Email {{ page.first_name }}</a>
+                <a class="text-dark" href="mailto:{{ page.email | default: "wildflowersalonmpls@gmail.com" }}">Email {{ page.first_name }}</a>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <a href="{{ site.baseurl }}/stylists" class="btn btn-secondary mt-2"><h1>&larr;</h1></a>
+                <a href="{{ site.baseurl }}/stylists" class="btn btn-secondary mt-2"><h3>&larr;</h3></a>
             </div>
         </div>
     </div>

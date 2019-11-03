@@ -2,7 +2,7 @@
 first_name: Meg
 last_name: Olson
 position: Stylist
-email: meg@wildflowersalonmpls.com
+#email: meg@wildflowersalonmpls.com
 image_link: Meg.jpg
 layout: stylist
 blurb: Meg started working at Salon Stella in October 2014. She loves the people she works with and finds her clients to be amazing.

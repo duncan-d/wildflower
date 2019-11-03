@@ -28,10 +28,15 @@ title: Stylists
         <div class="card-text">
           <h5 class="bg-primary border-secondary rounded p-1 m-0 text-center">{{ stylist.first_name }} {{ stylist.last_name }} - {{ stylist.position }}</h5>
           <p>{{ stylist.blurb }}</p>
-          <a class="btn btn-dark text-light w-100 text-center" href="mailto:{{ stylist.email }}">Email {{ stylist.first_name }}</a>
+          <a class="btn btn-dark text-light w-100 text-center" href="mailto:{{ stylist.email | default: "wildflowersalonmpls@gmail.com" }}">Email {{ stylist.first_name }}</a>
         </div>
       </div>
     </div>
   </div>
   {% endfor %}
+</div>
+  <div class="row">
+    <div class="col text-center">
+      <a href="/" class="btn btn-secondary mt-2">Home</a>
+    </div>
 </div>

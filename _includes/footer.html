@@ -2,12 +2,15 @@
     <div class="col-12">
         <div class="text-center">
             <!-- Set up Vagaro before showing the link to it -->
-            <!-- <a href="{{ site.vagaro_link }}" target="_blank" class="btn btn-danger p-3">Book Now</a> -->
+            <a href="{{ site.vagaro_link }}" target="_blank" class="btn btn-danger p-3 disabled mb-3">Online Booking Coming Soon</a>
         </div>
-        <div class="text-center">
-            <a class="text-primary" href="mailto:{{ site.email }}">{{ site.email }}</a>
-            <br>
-            <a class="text-primary" href="tel:{{ site.phone_number }}">{{ site.phone_number }}</a>
+        <div class="d-inline d-md-none text-center">
+            <h4><a class="text-primary" href="mailto:{{ site.email }}">{{ site.email }}</a></h4>
+            <h4><a class="text-primary" href="tel:{{ site.phone_number }}">{{ site.phone_number }}</a></h4>
+        </div>
+        <div class="d-none d-md-inline text-center">
+                <h2><a class="text-primary" href="mailto:{{ site.email }}">{{ site.email }}</a></h2>
+                <h2><a class="text-primary" href="tel:{{ site.phone_number }}">{{ site.phone_number }}</a></h2>
         </div>
     </div>
 </div>
