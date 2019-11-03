@@ -35,8 +35,8 @@ title: Stylists
   </div>
   {% endfor %}
 </div>
-  <div class="row">
-    <div class="col text-center">
-      <a href="/" class="btn btn-secondary mt-2 p-3"><h1>&larr;</h1></a>
-    </div>
+<div class="row">
+  <div class="col-12 text-center">
+    <a href="/" class="btn btn-secondary mt-2"><h3>&larr;</h3></a>
+  </div>
 </div>

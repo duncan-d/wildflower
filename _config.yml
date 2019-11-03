@@ -22,7 +22,7 @@ url: "http://duncan-d.github.io" # the base hostname & protocol for your site, e
 #twitter_username: jekyllrb
 #github_username:  jekyll
 vagaro_link: 'https://www.vagaro.com/wildflowersalonmpls'
-phone_number: '612-710-9003'
+# phone_number: '612-710-9003' # 612-710-9003 isn't the real phone number...
 
 repository: "duncan-d/wildflower"
 
