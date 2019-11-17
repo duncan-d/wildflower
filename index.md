@@ -3,7 +3,7 @@ layout: default
 title: Wildflower Salon
 url: /index.html
 ---
-<div class="row">
+<!-- <div class="row">
     <div class="col">
         <div class="text-center">
             <img 
@@ -14,12 +14,15 @@ url: /index.html
             >
         </div>
     </div>
-</div>
+</div> -->
 <div class="row">
     <div class="col">
-        <h1 
+        <h1
         class="text-center text-primary"
         style="font-family: 'Playfair Display'"
+        >Wildflower Salon</h1>
+        <h1 
+        class="text-center text-primary"
         >
             <span class="d-inline-block">Coming </span>
             <span class="d-inline-block">This Winter</span>
@@ -31,8 +34,8 @@ url: /index.html
                 <span class="d-inline-block">Northeast Minneapolis</span>
             </h2>
         </a>
-        <a href="/stylists">
+        <!-- <a href="/stylists">
             <h1 class="text-center text-primary">Check Out Our Staff</h1>
-        </a>
+        </a> -->
     </div>    
 </div>
