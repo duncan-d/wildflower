@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Wildflower
-email: "wildflowersalonmpls@gmail.com"
+email: "info@wildflowersalonmpls.com"
 description: >- # this means to ignore newlines until "baseurl:"
   An Eco Salon
 # baseurl: "/wildflower" # the subpath of your site, e.g. /blog
@@ -22,9 +22,9 @@ url: "http://duncan-d.github.io" # the base hostname & protocol for your site, e
 #twitter_username: jekyllrb
 #github_username:  jekyll
 vagaro_link: 'https://www.vagaro.com/wildflowersalonmpls'
-# phone_number: '612-710-9003' # 612-710-9003 isn't the real phone number...
+phone_number: '612-438-7143' # 612-710-9003 isn't the real phone number...
 
-repository: "duncan-d/wildflower"
+repository: "wildflowersalon/wildflower"
 
 # Build settings
 plugins:
@@ -34,8 +34,8 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
 # no links for about or services until they're populated
-# - about.md
-# - services.md
+ - about.md # i'm thinking this will be general info and/or mission statement and/or a what is an eco salon
+ #- services.md
  - stylists.md
 
 collections:

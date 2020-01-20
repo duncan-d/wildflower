@@ -2,11 +2,11 @@
 first_name: Laura
 last_name: Smith
 position: Owner
-#email: laura@wildflowersalonmpls.com
+email: laura@wildflowersalonmpls.com
 image_link: Laura.jpg
 layout: stylist
-blurb: Laura has been cutting hair in Northeast since 2012 and is part owner of Wildflower
 ---
+Laura has been cutting hair in Northeast since 2012 and is part owner of Wildflower
 
 Although her focus has been mainly toward working with curly hair, she welcomes all hair types to her chair.
 

@@ -3,7 +3,9 @@ layout: narrow
 ---
 <div class="row bg-primary">
     <div class="col-12 text-center p-0 col-sm-4 col-md-auto text-md-left">
+        {%- if page.image_link -%}
         <img style="min-width: 80px" class="img-fluid" src="{{ site.baseurl}}/assets/images/{{ page.image_link }}" alt="Picture of {{ page.first_name }}">
+        {%- endif  -%}
     </div>
     <div class="col p-5">
         <div class="row">
@@ -15,12 +17,17 @@ layout: narrow
         </div>
         <div class="row">
             <div class="col col-sm-8 col-md-auto">
-                <a class="text-dark" href="mailto:{{ page.email | default: "wildflowersalonmpls@gmail.com" }}">Email {{ page.first_name }}</a>
+                <a class="btn btn-dark mb-2" href="mailto:{{ page.email | default: "wildflowersalonmpls@gmail.com" }}">Email {{ page.first_name }}</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-sm-8 col-md-auto">
+                <a target="_blank" class="btn btn-dark" href="{{ page.custom_vagaro_link | default: site.vagaro_link }}">Book Now</a>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <a href="{{ site.baseurl }}/stylists" class="btn btn-secondary mt-2"><h3>&larr;</h3></a>
+                <a href="{{ site.baseurl }}/stylists" class="btn btn-dark mt-2"><h3>&larr;</h3></a>
             </div>
         </div>
     </div>

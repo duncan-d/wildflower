@@ -3,25 +3,17 @@
 
   {%- include head.html -%}
 
-  <body 
-  style="height: 100vh; background: rgba(17, 26, 39,.98);"
-  >
-{% comment %}
-<!-- style="background: linear-gradient(rgba(17, 26, 39,.98),rgba(17, 26, 39,.98)),url({{ site.baseurl }}/assets/images/old-brick-building.jpg); background-attachment: fixed; height: 100%;" -->
-{%- include header.html -%}
-<!-- <div class="container-fluid mt-5"> -->
-{% endcomment %}
+  <body style="background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url({{ site.baseurl }}/assets/images/old-brick-building.jpg); background-attachment: fixed; height: 100%;">
 
-      <div class="container-fluid h-100">
-        <!-- Get rid of next 2 divs to remove vertical centering -->
-        <div class="row h-100">
-          <div class="col-12 my-auto">
-            {{ content }}
-            
-            {%- include footer.html -%}
-          </div>
-        </div>
-      </div>
+  {%- include header.html -%}
+
+    <div class="container-fluid mt-5">
+
+      {{ content }}
+
+      {%- include footer.html -%}
+
+    </div>
 
   </body>
 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light navbar-expand-lg bg-primary text-info">
+<nav class="navbar navbar-light navbar-expand-sm bg-primary text-info">
   <div class="container">
     <a class="navbar-brand h4" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
@@ -9,9 +9,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a href="{{ site.vagaro_link }}" class="nav-link" target="_blank">Book Now</a>
-        </li>
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
