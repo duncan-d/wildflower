@@ -11,8 +11,8 @@ title: Stylists
       <div style="width: 10rem;" class="card bg-primary mx-auto">
         <img style="min-height: 80px" class="card-img" src="{{ site.baseurl }}/assets/images/{{ stylist.image_link | default: "blank_image.png" }}" alt="{{ stylist.name }}">
         <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
-          <div class="card-text text-black">
-            <h5 class="bg-primary text-black border-secondary rounded p-1 m-0 text-center">{{ stylist.first_name }} {{ stylist.last_name }}</h5>
+          <div class="card-text">
+            <h5 class="bg-primary text-secondary border-secondary rounded p-1 m-0 text-center">{{ stylist.first_name }} {{ stylist.last_name }}</h5>
           </div>
         </div>
       </div>

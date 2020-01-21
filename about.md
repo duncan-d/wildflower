@@ -28,7 +28,7 @@ title: About
 <li>Synthetic Fragarances</li>
 </ul>
 </div>
-<div class="bg-dark p-2 col-12 col-sm-auto">
+<div class="bg-dark p-2 col-12 col-sm-auto mb-2">
 <h4 class="text-light">Things we do like:</h4>
 <ul>
 <li>Truly Hydrating Products</li>

@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<style>
+body { 
+  background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('{{ site.baseurl }}/assets/images/7C74181F-.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
   {%- include head.html -%}
 
-  <body style="background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url({{ site.baseurl }}/assets/images/old-brick-building.jpg); background-attachment: fixed; height: 100%;">
+  <body>
 
   {%- include header.html -%}
 
