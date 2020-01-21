@@ -4,13 +4,10 @@ title: About
 ---
 <div class="row text-light">
 <div class="col">
-<h3 class="text-light">As a salon sustainability is our priority.</h3>
+<h3 class="text-light">As a salon, sustainability is our priority.</h3>
 <h3 class="text-light">We care about our bodies and our planet and are mindful about what goes back in to the environment. </h3>
 <h3 class="text-light">We are experienced stylists from a range of backgrounds providing a clean atmosphere for clients and ourselves.</h3>
 <h3 class="text-light">We prioritize education in order to keep evolving our methods over time.</h3>
-<!-- <h3 class="text-light">We are experienced stylists from a range of backgrounds who are looking to provide a cleaner environment for both clients and ourselves.</h3>
-<h3 class="text-light">As a salon sustainability is a priority. We care about our bodies and our planet and want to be mindful about goes back in to the environment. </h3>
-<h3 class="text-light">We take an artful approach to hair-styling and prioritze education in order to evolve our methods</h3> -->
 </div>
 </div>
 <div class="row text-light">
