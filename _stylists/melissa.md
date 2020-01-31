@@ -3,7 +3,7 @@ first_name: Melissa
 last_name: Cable
 position: Stylist
 email: melissa@wildflowersalonmpls.com
-#image_link: Meg.jpg
+image_link: Melissa.jpg
 layout: stylist
 #blurb: Meg started cutting hair in Northeast in October 2014. She loves the people she works with and finds her clients to be amazing.
 ---
