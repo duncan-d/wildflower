@@ -16,6 +16,16 @@ url: /index.html
     </div>
 </div>
 <div class="row">
+    <div class="col-auto bg-primary mx-auto p-4 mt-3">
+        <p class="h5"><strong>Thank you for your support during this time. Click on the button below to have your products shipped to you.</strong></p>
+        <div class="row">
+            <div class="col-auto mx-auto">
+                <a class="btn btn-dark mt-2" href="https://shareasale.com/r.cfm?b=1024874&u=2340817&m=72573&urllink=&afftrack=">Innersense Organic Beauty</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
     <div class="col">
         <a href="https://goo.gl/maps/8eFSPeiysjd8nfkL7" target="_blank">
             <h2 class="text-center text-primary my-3 text-uppercase">
@@ -25,7 +35,9 @@ url: /index.html
             </h2>
         </a>
         <a href="/stylists">
-            <h1 class="text-center text-primary">Meet our Stylists</h1>
+            <h2 class="text-center text-primary">
+                <u>Meet our Stylists</u>
+            </h2>
         </a>
     </div>    
 </div>
