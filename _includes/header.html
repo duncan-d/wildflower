@@ -1,25 +1,24 @@
-<nav class="navbar navbar-light navbar-expand-sm bg-primary text-info">
-  <div class="container">
+<nav class="navbar navbar-light navbar-expand-sm bg-primary text-black">
+  <div class="container-fluid">
     <a class="navbar-brand h4" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-    {%- assign page_paths = site.header_pages -%}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li>
-          <div class="dropdown">
-            <a href="#" class="dropdown-toggler nav-link" data-toggle="dropdown">Book Now</a>
-            <div class="dropdown-menu">
-              {% assign stylists = site.stylists | sort: 'last_name' | reverse | sort: 'position' %}
-              {% for stylist in stylists %}
-              <a href="{{ stylist.custom_vagaro_link | default: site.vagaro_link }}" class="nav-item dropdown-item">Book with {{ stylist.first_name }}</a>
-              {% endfor %}
-            </div>
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li>
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggler nav-link" data-toggle="dropdown">Book Now</a>
+          <div class="dropdown-menu">
+            {% assign stylists = site.stylists | sort: 'last_name' | reverse | sort: 'position' %}
+            {% for stylist in stylists %}
+            <a href="{{ stylist.custom_vagaro_link | default: site.vagaro_link }}" class="nav-item dropdown-item">Book with {{ stylist.first_name }}</a>
+            {% endfor %}
           </div>
-        </li>
+        </div>
+      </li>
+      {%- assign page_paths = site.header_pages -%}
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
