@@ -2,7 +2,7 @@
 first_name: Becca
 last_name: Herron
 position: Stylist
-email: becca@wildflowersalonmpls.com
+email: catladydoeshair@gmail
 image_link: Becca.jpg
 layout: stylist
 # custom_vagaro_link: https://www.vagaro.com/andybeckerhair
