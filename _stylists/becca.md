@@ -1,6 +1,6 @@
 ---
 first_name: Becca
-last_name: Herron
+last_name: Bighley
 position: Stylist
 email: catladydoeshair@gmail
 image_link: Becca.jpg
