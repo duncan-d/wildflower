@@ -3,7 +3,7 @@ first_name: Andy
 last_name: Becker
 position: Stylist
 email: andybeckerhair@gmail.com
-image_link: Andy.png
+image_link: Andy.jpg
 layout: stylist
 custom_vagaro_link: https://www.vagaro.com/andybeckerhair
 ---
